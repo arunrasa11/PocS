@@ -1,0 +1,23 @@
+cpy2GCS - DEBUG - Checking ../Keys/soy-reporter-399414-422a57a9d10d.json for explicit credentials as part of auth process...
+cpy2GCS - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+cpy2GCS - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+cpy2GCS - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+cpy2GCS - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+cpy2GCS - DEBUG - Starting new HTTPS connection (1): storage.googleapis.com:443
+cpy2GCS - DEBUG - https://storage.googleapis.com:443 "GET /storage/v1/b/arun-data-staging-bucket?projection=noAcl&prettyPrint=false HTTP/1.1" 200 606
+cpy2GCS - INFO - Module: __main__ Method: main - GCS Client created and verified bucket name
+cpy2GCS - INFO - Module: __main__ Method: main - Uploading file actorTable.csv
+cpy2GCS - DEBUG - https://storage.googleapis.com:443 "POST /upload/storage/v1/b/arun-data-staging-bucket/o?uploadType=multipart HTTP/1.1" 200 833
+cpy2GCS - INFO - Module: __main__ Method: main - upload successful actorTable.csv
+cpy2GCS - INFO - Module: __main__ Method: main - Uploading file addressTable.csv
+cpy2GCS - DEBUG - https://storage.googleapis.com:443 "POST /upload/storage/v1/b/arun-data-staging-bucket/o?uploadType=multipart HTTP/1.1" 200 842
+cpy2GCS - INFO - Module: __main__ Method: main - upload successful addressTable.csv
+cpy2GCS - INFO - Module: __main__ Method: main - Uploading file countryTable.csv
+cpy2GCS - DEBUG - https://storage.googleapis.com:443 "POST /upload/storage/v1/b/arun-data-staging-bucket/o?uploadType=multipart HTTP/1.1" 200 841
+cpy2GCS - INFO - Module: __main__ Method: main - upload successful countryTable.csv
+cpy2GCS - INFO - Module: __main__ Method: main - Uploading file categoryTable.csv
+cpy2GCS - DEBUG - https://storage.googleapis.com:443 "POST /upload/storage/v1/b/arun-data-staging-bucket/o?uploadType=multipart HTTP/1.1" 200 844
+cpy2GCS - INFO - Module: __main__ Method: main - upload successful categoryTable.csv
+cpy2GCS - INFO - Module: __main__ Method: main - Uploading file cityTable.csv
+cpy2GCS - DEBUG - https://storage.googleapis.com:443 "POST /upload/storage/v1/b/arun-data-staging-bucket/o?uploadType=multipart HTTP/1.1" 200 830
+cpy2GCS - INFO - Module: __main__ Method: main - upload successful cityTable.csv

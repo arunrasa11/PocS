@@ -1,0 +1,12 @@
+Postgres2csv - INFO - Module: psqlActions Method: connect_psql - DB connection Established
+Postgres2csv - INFO - Module: psqlActions Method: extract_data - Query executed
+Postgres2csv - INFO - Module: psqlActions Method: extract_data - Fetch successful
+Postgres2csv - INFO - Module: __main__ Method: write_csv - File /Users/arun/PycharmProjects/PocS/ofiles/actorTable.csv successfully written
+Postgres2csv - INFO - Module: psqlActions Method: extract_data - Query executed
+Postgres2csv - INFO - Module: psqlActions Method: extract_data - Fetch successful
+Postgres2csv - INFO - Module: __main__ Method: write_csv - File /Users/arun/PycharmProjects/PocS/ofiles/addressTable.csv successfully written
+Postgres2csv - INFO - Module: psqlActions Method: extract_data - Query executed
+Postgres2csv - INFO - Module: psqlActions Method: extract_data - Fetch successful
+Postgres2csv - INFO - Module: __main__ Method: write_csv - File /Users/arun/PycharmProjects/PocS/ofiles/categoryTable.csv successfully written
+Postgres2csv - INFO - Module: __main__ Method: main - File /Users/arun/PycharmProjects/PocS/ofiles/countryTable.csv successfully written
+Postgres2csv - INFO - Module: __main__ Method: main - Connection and cursor closed
